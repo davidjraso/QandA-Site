@@ -109,3 +109,18 @@ footer {
 .modal img {
   width: 100%;
 }
+
+/*Tables*/
+table {
+    width: 100%;
+}
+
+table tr th {
+  border-bottom: 1px solid #999;
+}
+
+/*forms*/
+form div {
+  margin-bottom: 20px;
+}
+
