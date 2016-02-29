@@ -35,6 +35,30 @@
      <img src="images/place-hold-small.jpg">
      <p>links to other pages for more info</p>
      
+     <a href="#img1" rel="modal:open" class="button">Add a Practice</a>
+      
+      <div id="img1" style="display:none;">
+        <form action="//formspree.io/davidjraso@wustl.edu" method="POST">
+        <div>
+          <label>Name</label>
+          <input type="text" name="name" value="Your name">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" value="Your email">
+        </div>
+        <div>
+          <label>Practice</label>
+          <input type="text" name="practice" value="Your practice">
+        </div>
+        <div>
+          <label>Doctor</label>
+          <input type="text" name="doctor" value="Your Doctor">
+        </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
     </div>
 
       <footer class="site-footer">
